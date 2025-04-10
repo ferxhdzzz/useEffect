@@ -5,7 +5,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(191, 255, 189, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -16,12 +16,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #71c6ff;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #535bf2;
+  color: #ff89ca;
 }
 
 body {
@@ -45,12 +45,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1fb8ff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #fc9aff;
 }
 button:focus,
 button:focus-visible {
@@ -63,7 +63,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #5eccff;
   }
   button {
     background-color: #f9f9f9;
@@ -84,7 +84,7 @@ button:focus-visible {
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #64c1ffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -106,7 +106,7 @@ button:focus-visible {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #000000;
 }
 
 .container {
@@ -137,7 +137,7 @@ button:focus-visible {
 }
 
 
-/* Responsividad mejorada */
+
 @media (max-width: 768px) {
   #root {
     padding: 1rem;

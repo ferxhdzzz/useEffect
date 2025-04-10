@@ -28,9 +28,12 @@ const DragonBall = () => {
 
     return (
         <div className="container">
-            <h1 className='text-center text-2xl'>Dragon Ball Characters</h1>
+            <br />
+            <h1 className='text-center text-2xl'>DragonBall</h1>
+            <br />
             {loading ? (
-                <p>Loading...</p>
+
+                <p>...</p>
             ) : (
                 <div className="grid grid-cols-5 gap-8">
                     {characters.map((character) => (
